@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+main{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+.customBg{
+    background-color: #1B2430;
+}
+.carousel-item img{
+    filter: brightness(50%);
+    height: 90vh;
+    width: 100vw;
+}
+.carousel-item{
+    position: relative;
+}
+.card img{
+    height: 250px;
+    border-radius: 5px 5px 0 0;
+}
+.carousel-item .textField{
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    width: 80vw;
+}
+
+.textField h1{
+    text-align: center;
+    font-size: 72px;
+}
+
+.rightPanel .one{
+    background-color: #000 !important;
+    border-radius: 5px;
+    color: rgb(180, 177, 177);
+}
+.calculateFont{
+    font-size: 17px;
+}
